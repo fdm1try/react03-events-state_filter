@@ -1,0 +1,33 @@
+.toolbar {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.toolbar-item {
+  padding: 10px 30px;
+  font-size: 20px;
+  background: white;
+  color: black;
+  border: 1px solid rgb(29, 29, 29);
+  cursor: pointer;
+}
+
+.toolbar-item:hover {
+  background:rgb(77, 77, 77);
+  color: white;
+}
+
+.toolbar-item_active {
+  background:black;
+  color: white;
+}
+
+.toolbar-item_active:hover {
+  background:black;
+}
+
+.toolbar-item:disabled {
+  cursor: auto;
+}
